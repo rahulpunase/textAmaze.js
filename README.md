@@ -1,2 +1,5 @@
 # textAmaze
-Make your text more amazing by applying sassy animations upon it n just a few lines of code.
+
+The js library which allows you to make your text more sassy in just a few lines of code.
+---------------
+
