@@ -53,24 +53,46 @@ function config(targetElement, animationSettings[Object], styles[Object]){
 #### To configue
 
 ~~~javascript
-var targetElement = $("#targetElement");
 
-var animationSettings = 
-  {
-  "animationName":"zoomInLeft",
-  "time":"100",
-  }
+//NOTE : make sure to use just the name of the class or id with the symbol and not $("#targetElement")
 
-var styles = {
-     "color":"lightblue",
-     "background":"blue",
-     "padding":"10px"
-     }
+var targetElement = "#targetElement";
+
+//animationNames come in from the animated.css, go check out that website and try 
+//to apply those animations here
+
+		
+		var targetElement = "#targetElement";
+
+		var animationSettings = 
+		  {
+		  "animationName":"bounceIn",
+		  "time":"100",
+		  }
+
+		var styles = {
+			 "color":"blue",
+			 "animationIterationCount":"infinite"
+			 }
   
- textAmaze.config(targetElement, animationSettings, styles); 
+		 textAmaze.config(targetElement, animationSettings, styles); 
 ~~~
 
 -----------------
+
+## Precautions
+
+1. Every letter thats inside the target element is converted into a block display, you have to explicity apply an inline-block property to the div's inside the targetElement
+
+~~~css
+#targetElement div{
+  display:inline-block;
+}
+~~~
+
+2. To provide spaces between the words, use '&nbsp' , as the inline-block property forces the div's to stick together.
+
+###### Hope someone comes along the way and helps me out in fixing those limitations.
 
 
 
