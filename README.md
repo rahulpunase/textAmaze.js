@@ -55,18 +55,19 @@ function config(targetElement, animationSettings[Object], styles[Object]){
 ~~~javascript
 var targetElement = $("#targetElement");
 
-var animationSettings = {
+var animationSettings = 
+  {
   "animationName":"zoomInLeft",
-	"time":"100",
-}
+  "time":"100",
+  }
 
 var styles = {
-      "color":"lightblue",
-				"background":"blue",
-				"padding":"10px"
-  }
+     "color":"lightblue",
+     "background":"blue",
+     "padding":"10px"
+     }
   
- textAmaze.textAmaze(targetElement, animatiopnSettings, styles); 
+ textAmaze.textAmaze(targetElement, animationSettings, styles); 
 ~~~
 
 -----------------
