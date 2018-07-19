@@ -67,7 +67,7 @@ var styles = {
      "padding":"10px"
      }
   
- textAmaze.textAmaze(targetElement, animationSettings, styles); 
+ textAmaze.config(targetElement, animationSettings, styles); 
 ~~~
 
 -----------------
