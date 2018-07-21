@@ -80,6 +80,10 @@ var targetElement = "#targetElement";
 
 -----------------
 
+## Demo
+
+Have a look at the demo working of this library. [Click here](https://ronak99.github.io/textAmaze.js/index.html)
+
 ## Precautions
 
 1. Every letter thats inside the target element is converted into a block display, you have to explicity apply an inline-block property to the div's inside the targetElement
