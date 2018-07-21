@@ -5,7 +5,7 @@ The js library which allows you to make your text more sassy in just a few lines
 ### Main JS File
 
 You can find the main js file under the package/js or download zip file of the repository.
-You can also get to the raw file directly by clicking on [this link](https://github.com/Ronak99/textAmaze.js/blob/gh-pages/package/js/textAmaze.js).
+You can also get to the raw file directly by clicking on [this link](https://raw.githubusercontent.com/Ronak99/textAmaze.js/gh-pages/js/textAmaze.js).
 
 ## What do you need to do
 
