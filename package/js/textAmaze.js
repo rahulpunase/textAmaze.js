@@ -83,7 +83,9 @@ function textAmaze(){
 		
 	function valueModifier(){
 		
-		 childTag = "div";
+		 childTag = "span";
+		
+		// using span will eliminate the requirement of giving addition style of inline-block to the children of targeted element
 		
 		//trimed values which the element has
 		var elementValue = elementTag.text().trim();
